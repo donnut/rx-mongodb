@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '4'
+before_script:
+  - 'cd $TRAVIS_BUILD_DIR'
+  - 'echo "=============================="'
+  - 'npm install'
+script:
+  - 'npm test'
+after_script:
+after_success:
+notifications:
+  email:
+  - bir.yuval@gmail.com

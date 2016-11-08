@@ -1,0 +1,35 @@
+{
+  "name": "rx-mongodb",
+  "version": "0.0.1",
+  "description": "rx-mongodb is a reactive drive to mongodb for rxjs developers",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tWinE-xx/rx-mongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "reactive",
+    "driver",
+    "rxjs",
+    "adapter"
+  ],
+  "author": "Yuval Birenboum <bir.yuval@gmail.com> (https://il.linkedin.com/in/yuval-birenboum-b3565b12)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tWinE-xx/rx-mongodb/issues"
+  },
+  "homepage": "https://github.com/tWinE-xx/rx-mongodb#readme",
+  "dependencies": {
+    "mongodb": "^2.2.11",
+    "rxjs": "^5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.1.2",
+    "mongo-mock": "^2.1.0"
+  }
+}
