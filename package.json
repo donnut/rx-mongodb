@@ -1,6 +1,6 @@
 {
   "name": "rx-mongodb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "rx-mongodb is a reactive drive to mongodb for rxjs developers",
   "main": "./lib/index.js",
   "scripts": {
